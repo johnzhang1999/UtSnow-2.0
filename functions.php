@@ -47,7 +47,7 @@ if (has_post_thumbnail()) {
      the_post_thumbnail();
 } else if ( $values = get_post_custom_values("picture") ) { ?>
 <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><img class="thumb" src="<?php $values = get_post_custom_values("picture"); echo $values[0]; ?>" alt="<?php the_title(); ?>" /></a>
-<?php } else {
+<?php } /* else {
      // 设置特色图像
      $attachments = get_posts(array(
           'post_type' => 'attachment',
@@ -64,7 +64,7 @@ if (has_post_thumbnail()) {
           // 显示特色图像
           
      }
-} 
+} */
 }
 // 页面导航
 

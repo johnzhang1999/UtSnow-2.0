@@ -4,7 +4,7 @@ Theme URI: http://johnzhang.cn/2014/09/08/utsnow/
 Description: All for blogging
 Author: John Zhang
 Author URI: http://johnzhang.cn/
-Version: 1.0
+Version: 2.0
 Tags: 简洁, 白色, bootstrap
 
 License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
@@ -12,4 +12,10 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
 */
+.transparent_class {  
+      filter:alpha(opacity=90);  
+      -moz-opacity:0.9;  
+      -khtml-opacity: 0.9;  
+      opacity: 0.9;  
+}   
 
