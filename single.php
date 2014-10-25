@@ -35,7 +35,7 @@ height: expresion(this.height > 1650 ? 1650px : ‘auto’;);
 $rand_posts = get_posts('numberposts=5&orderby=rand');
 foreach( $rand_posts as $post ) :
 ?>
-<li><a href=”<?php the_permalink(); ?>”>  <?php the_title(); ?>  </a></li>
+<li><a href="<?php the_permalink(); ?>">  <?php the_title(); ?>  </a></li>
 <?php endforeach; ?>
 </center>
 			<hr>
