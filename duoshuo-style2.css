@@ -1,0 +1,245 @@
+/*按钮*/
+
+#ds-thread #ds-reset .ds-paginator a.ds-current {
+padding: 5px 20px;
+}
+#ds-thread #ds-reset .ds-paginator a:hover, #ds-thread #ds-reset .ds-paginator a.ds-current {
+background-color: #fff;
+}
+#ds-thread #ds-reset .ds-post-button {
+font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+position: absolute;
+text-shadow: none;
+font-weight: normal;
+border-bottom-right-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+border: none;
+color: #fff;
+background-color: #666666;
+background-image: none;
+box-shadow: none;
+outline: none;
+}
+
+#ds-thread #ds-reset .ds-post-button:hover {
+color: #FFF;
+background-color: #51aded;
+background-image: none;
+}
+#ds-thread #ds-reset .ds-post-button:hover {
+background-position: 0 -15px;
+color: #fff;}
+
+/*评论框*/
+
+#ds-thread #ds-reset .ds-textarea-wrapper {
+position: relative;
+border: 1px solid #e2e2e2!important;
+padding-right: 20px;
+background:none;
+overflow: hidden;
+height: 80px;
+}
+
+#ds-thread #ds-reset .ds-post-options {
+border: 0px;
+border-right: 0;
+border-bottom-left-radius: 0;
+-webkit-border-bottom-left-radius: 0;
+background: transparent;
+margin-top: 12px;
+}
+#ds-thread #ds-reset .ds-post-toolbar span,#ds-thread #ds-reset .ds-powered-by a{display: none}
+
+/*主评论*/
+
+#ds-reset .ds-highlight {
+color: #6D6D6D !important;
+}
+
+.ds-post-likes, .ds-post-repost, .ds-post-report {
+display: none !important;
+}
+
+#ds-thread #ds-reset li.ds-post {
+border-top:none;
+}
+
+#ds-thread #ds-reset .ds-comment-actions a .ds-icon {
+display: none;
+}
+
+#ds-thread #ds-reset .ds-comment-footer a {
+margin: 0 8px;
+}
+
+#ds-reset .ds-avatar img {
+border-radius: 50%;
+}
+
+#ds-thread #ds-reset .ds-comment-header {
+padding: 5px 0;
+border-bottom: 1px solid #e2e2e2;
+}
+
+#ds-thread #ds-reset ul.ds-children .ds-post-self {
+padding-left: 20px;
+border-left: 1px solid #e2e2e2;
+}
+
+#ds-thread #ds-reset .ds-comment-footer {
+position: absolute;
+top: 0;
+right: 0;
+}
+
+#ds-thread #ds-reset li.ds-post {
+margin: 10px 0;
+}
+
+#ds-thread #ds-reset .ds-sort {
+display: none;
+}
+
+#ds-thread #ds-reset li.ds-tab a.ds-current {
+border:none;
+font-size: 20px;
+color: rgba(0,0,0,0.4);
+line-height: 80px;
+background-color:#fff;
+}
+
+#ds-thread #ds-reset li.ds-tab a:hover{background-color:none}
+
+/*-------------------------------*/
+
+#ds-wrapper #ds-reset .ds-dialog-inner {
+border: 1px solid #e2e2e2;
+background: #fff;
+box-shadow: none;
+}
+
+#ds-wrapper #ds-reset .ds-dialog-footer,#ds-thread #ds-reset .ds-login-buttons {
+display: none;
+}
+
+#ds-wrapper #ds-reset button {
+background-color: #fff;
+background-image:  none;
+ background-image: none;
+background-image: none;
+background-image:  none;
+background-image:  none;
+border: 1px solid #fff;
+outline: none;
+background: transparent;
+color:#fff
+}
+
+.ds-icons-32 a.ds-weibo {
+background-position: 0 0 !important;
+}
+.ds-icons-32 a.ds-qq {
+background-position: -32px 0 !important;
+}
+.ds-icons-32 a.ds-renren {
+background-position: -64px 0 !important;
+}
+.ds-icons-32 a.ds-kaixin {
+background-position: -96px 0 !important;
+}
+.ds-icons-32 a {
+background: url("http://static.5sing.com/images/sns_icons.png") no-repeat !important;
+}
+
+#ds-thread #ds-reset .ds-replybox {
+margin-top: 60px;
+}
+
+#ds-thread #ds-reset .ds-textarea-wrapper textarea, #ds-thread #ds-reset .ds-textarea-wrapper .ds-hidden-text {
+font-family: Verdana, Geneva, "Microsoft Yahei", "Heiti SC Light", sans-serif;
+}
+
+/*其他*/
+
+#ds-notify #ds-reset a.ds-logo {
+width: 0;
+height: 0px;
+background: none;
+}
+
+#ds-notify #ds-reset ul.ds-notify-unread {
+margin: 0 ; 
+padding: 0 20px;
+}
+
+#ds-notify {
+background-color: #42D5C3;
+-webkit-border-radius: 0;
+border-radius: 0;
+box-shadow:0; 
+border:0; 
+}
+
+#ds-notify #ds-reset ul.ds-notify-unread li a {
+color: #fff;
+text-decoration: none;
+}
+
+#ds-wrapper #ds-reset .ds-dialog-inner {
+border: 1px solid #e2e2e2;
+background: #42D5C3;
+box-shadow: none;
+text-shadow: none;
+}
+
+#ds-wrapper #ds-reset .ds-unread-list li a {
+color: #333;
+}
+
+#ds-wrapper #ds-reset .ds-unread-list li,#ds-wrapper #ds-reset h2,#ds-wrapper #ds-reset .ds-control-group label  {
+color: #fff;
+}
+
+#ds-wrapper #ds-reset .ds-control-group input {
+border: 1px solid #fff;
+outline: none;
+}
+
+#ds-thread #ds-reset a.ds-comment-context {
+color: #666666;
+}
+
+#ds-thread #ds-reset .ds-paginator a.ds-current {
+color: #333;
+border: 1px solid #e2e2e2;
+}
+#ds-thread #ds-reset .ds-paginator a:hover, #ds-thread #ds-reset .ds-paginator a.ds-current {
+background-color:none
+}
+
+#ds-thread #ds-reset .ds-toolbar {
+display: none;
+}
+
+#ds-thread #ds-reset .ds-paginator {
+border-bottom:none;
+padding-bottom: 0
+}
+
+#ds-wrapper #ds-reset .ds-unread-list li a[rel~="author"] {
+color: #fff;
+}
+
+#ds-thread #ds-reset ul.ds-children .ds-post-self:hover {
+border-left: 1px solid rgba(0,0,0,.4);
+}
+
+#ds-thread #ds-reset .ds-textarea-wrapper {
+height: 120px;
+}
+
+#ds-thread #ds-reset .ds-post-self {
+border-top: none;
+}
+#ds-thread #ds-reset .ds-textarea-wrapper textarea {background:url(http://johnzhang-files.qiniudn.com/s_130133_88409.jpg) center no-repeat;}
